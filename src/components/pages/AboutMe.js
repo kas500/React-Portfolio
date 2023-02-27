@@ -4,7 +4,6 @@ export default function AboutMe() {
   return (
     <div>
       <article className="">
-    {/* <div className="vh-75 cover bg-center" style="background-image: url(http://mrmrs.github.io/photos/001.jpg);"></div> */}
       <div className="bt bb tc mw8 center mt3">
         <div className="pv3 f5 f4-ns measure center">
           <h2 className="baskerville tc fw1 ph3 ph0-l">Hey there!</h2>
