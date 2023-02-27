@@ -3,20 +3,29 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    {/* <div classNameName="vh-75 cover bg-center" style="background-image: url(http://mrmrs.github.io/photos/001.jpg);"></div> */}
+      <div className="bt bb tc mw8 center mt3">
+      <form className="measure center mt2 mb5 ">
+        <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
+          <legend className="f4 fw6 ph0 mh0">Send me a message</legend>
+          <div className="mt3">
+            <label className="db fw6 lh-copy f6" for="name">Your name</label>
+            <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="email-address"  id="name" required></input>
+          </div>
+          <div className="mt3">
+            <label className="db fw6 lh-copy f6" for="email-address">Email</label>
+            <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address" required></input>
+          </div>
+          <div className="mv3">
+            <label className="db fw6 lh-copy f6" for="message">Message</label>
+            <textarea className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 " rows="10" type="textarea" name="message"  id="message"></textarea>
+          </div>
+        </fieldset>
+        <div className="">
+          <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Submit"></input>
+        </div>
+      </form>
+      </div>
     </div>
   );
 }
