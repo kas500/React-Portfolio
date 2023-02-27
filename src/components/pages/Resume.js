@@ -4,16 +4,23 @@ export default function Resume() {
   return (
     <div>
        <article className="">
-    {/* <div className="vh-75 cover bg-center" style="background-image: url(http://mrmrs.github.io/photos/001.jpg);"></div> */}
       <div className="bt bb tc mw8 center mt3">
-        <div className="pv5 f4 f2-ns measure center">
-          <h1 className="fw6 f1 fl w-100 black-70 mt0 mb3 avenir">Resume</h1>
-          <p className="db lh-copy black-70 serif fw1 mv0 f4 f3-m f2-l measure baskerville">
-            A short description of your project. Maybe a few notes concerning your
-            constraints and process.  Standard lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore etc. al dolore magna
-            aliqua. Ut enim ad.
-          </p>
+        <div className="pv3 f5 f4-ns measure center">
+          <h2 className="baskerville tc fw1 ph3 ph0-l">My skills <a href="./resume.docx" download>
+          <img src="./word.png" alt="download" width="50" height="50"></img>
+          </a></h2>
+          <ul class="list pl0 measure center">
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">HTML5</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">CSS3</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">JavaScript</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30"> Node.js</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">Express.js</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">React.js</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">MongoDB</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">MySQL</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">Git</li>
+          <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-30">and many more..</li>
+          </ul>
         </div>
       </div>
     </article>
