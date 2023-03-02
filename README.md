@@ -22,16 +22,19 @@ You can navigate to each title without reloading pageAbout me tab contains short
 
 ### About me page screenshot
 
-
+<img width="1675" alt="Screenshot 2023-03-01 at 7 55 01 PM" src="https://user-images.githubusercontent.com/38312017/222327491-50e4e1fd-9311-496d-a075-b5a8e8c20b0a.png">
 
 ### Portfolio page screenshot
 
-
+<img width="1673" alt="Screenshot 2023-03-01 at 7 55 13 PM" src="https://user-images.githubusercontent.com/38312017/222327523-5d8d16fa-dba5-4cbc-9e37-57dc522fd1c1.png">
 
 ### Contact page screenshot
 
+<img width="1667" alt="Screenshot 2023-03-01 at 7 55 41 PM" src="https://user-images.githubusercontent.com/38312017/222327602-bebdec0c-c4e2-4427-8483-febee5d26e33.png">
 
 ### Resume page screenshot
+
+<img width="1674" alt="Screenshot 2023-03-01 at 7 55 28 PM" src="https://user-images.githubusercontent.com/38312017/222327656-3ea83e53-97f4-41f4-a393-e0d6c8592d32.png">
 
 ## Contributing
 
