@@ -124,6 +124,20 @@ export default function Portfolio() {
           </div>
         </a>
       </article>
+      <article className="bb b--black-10">
+        <a className="db pv4 ph3 ph0-l no-underline black dim" href="https://quizmaker-app.herokuapp.com/">
+          <div className="flex flex-column flex-row-ns">
+            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <img src="./quizMaker.webp" className="db" alt="quiz maker"></img>
+            </div>
+            <div className="w-100 w-60-ns pl3-ns">
+              <h1 className="f3 fw1 baskerville mt0 lh-title">Quiz maker</h1>
+              <p className="f6 f5-l lh-copy">
+              QuizMaker is a coding project aimed at creating a user-friendly quiz generator that allows users to create and customize quizzes for a variety of purposes. </p>
+            </div>
+          </div>
+        </a>
+      </article>
     </section>
     </div>
   );
